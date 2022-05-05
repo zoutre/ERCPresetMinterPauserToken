@@ -1,7 +1,7 @@
 # ERCPresetMinterPauserToken
 Starting point for initial token creation contract.
 
-# OpenZepplin GitHub import
+# Development
 <!--- myToken.sol full example logic --!>
 ```
     pragma solidity >=0.7.0 <0.9.0;
