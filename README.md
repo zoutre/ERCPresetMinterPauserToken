@@ -1,19 +1,17 @@
-
 # myToken
-Starting point for initial token creation to be used with zoutre-beta DeFi dApp 
+Starting point for initial token creation to be used with zoutre-beta DeFi dApp
 
 # Development
-<!--- myToken.sol sample example logic --!>
-
+<!-- myToken.sol sample example logic -->
 ```solidity
 pragma solidity >=0.7.0 <0.9.0;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol";
+
 contract myToken is ERC20PresetMinterPauser {
     constructor() ERC20PresetMinterPauser("myToken", "MINE") {
     }
 }
 ```
-
 ## Windows x64 - Tools
 * PowerShell (local command-line environment)
 * Notepad++ (source code viewer): https://notepad-plus-plus.org/
