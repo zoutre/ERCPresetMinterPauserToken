@@ -1,7 +1,7 @@
-# myToken
+# zoutre-beta
 Starting point for initial token creation to be used with zoutre-beta DeFi dApp
 
-# Development
+# Development - myToken
 <!-- myToken.sol sample example logic -->
 ```solidity
 pragma solidity >=0.7.0 <0.9.0;
