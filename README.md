@@ -21,7 +21,13 @@ contract myToken is ERC20PresetMinterPauser {
 * Truffle (smart contract development / production deployment): https://trufflesuite.com/
 * Infura (Web3 Provider - API): https://infura.io/
   * Using Infura with Truffle: https://trufflesuite.com/guides/using-infura-custom-provider/
-  * Validate: `curl -u <user>:<project-secret> https://ropsten.infura.io/v3/<project-id>`
+  * Validate Infura account by retrieving current block number of blockchain: 
+```curl
+  curl https://ropsten.infura.io/v3/<Project ID> \
+   -X POST \
+   -H "content-Type: application/json" \
+   -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+```
   * Get unique mnemonics: `npx mnemonics` 
 * Metamask Chrome extension (crypto wallet): https://metamask.io/download/ 
   * Ropsten (Ethereum-like PoW blockchain testnet): https://ethereum.org/en/developers/docs/networks/
